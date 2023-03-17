@@ -1,0 +1,55 @@
+/* تعيين خط النص */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* تعيين الخلفية للصفحة */
+body {
+  background-color: #f2f2f2;
+}
+
+/* تحديد أنماط العناوين */
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* تحديد أنماط النصوص */
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* تحديد أنماط الروابط */
+a {
+  color: #3366cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* تحديد أنماط الجداول */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+/* تحديد أنماط الصور */
+img {
+  max-width: 100%;
+  height: auto;
+}
